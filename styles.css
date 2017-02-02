@@ -1,13 +1,10 @@
 label {
     width:180px;
     clear:left;
-    text-align:center;
-
-}
+    text-align:center;}
 
 input, label {
-    float:left;
-}
+    float:left;}
 
 
 
@@ -16,6 +13,6 @@ div.sub1{
 }
 
 h1{
-	
+
 	text-allign: center;
 }

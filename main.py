@@ -22,8 +22,8 @@ content =''' <head>
     <h1>Signup</h1>
     <form action="/welcome" method="post">
     <label>Username:<label><input type="text" name="username"/><br>
-    <label>Password:</label><input type="text" name="password"/><br>
-    <label>Verify Password:</label><input type="text" name="verify"/><br>
+    <label>Password:</label><input type="password" name="password"/><br>
+    <label>Verify Password:</label><input type="password" name="verify"/><br>
     <label>Email(optional):</label><input type="text" name="email"/><br>
     <input type="submit"/>
     </form>'''
@@ -33,8 +33,8 @@ content_uer =''' <head>
     <h1>Signup</h1>
     <form action="/welcome" method="post">
     <label>Username:<label><input type="text" name="username"/>Enter a valid username<br>
-    <label>Password:</label><input type="text" name="password"/><br>
-    <label>Verify Password:</label><input type="text" name="verify"/><br>
+    <label>Password:</label><input type="password" name="password"/><br>
+    <label>Verify Password:</label><input type="password" name="verify"/><br>
     <label>Email(optional):</label><input type="text" name="email"/><br>
     <input type="submit"/>
     </form>'''
@@ -44,8 +44,8 @@ content_pas =''' <head>
     <h1>Signup</h1>
     <form action="/welcome" method="post">
     <label>Username:<label><input type="text" name="username"/><br>
-    <label>Password:</label><input type="text" name="password"/>Enter a valid password<br>
-    <label>Verify Password:</label><input type="text" name="verify"/><br>
+    <label>Password:</label><input type="password" name="password"/>Enter a valid password<br>
+    <label>Verify Password:</label><input type="password" name="verify"/><br>
     <label>Email(optional):</label><input type="text" name="email"/><br>
     <input type="submit"/>
     </form>'''
@@ -55,8 +55,8 @@ content_pasmatch =''' <head>
     <h1>Signup</h1>
     <form action="/welcome" method="post">
     <label>Username:<label><input type="text" name="username"/><br>
-    <label>Password:</label><input type="text" name="password"/><br>
-    <label>Verify Password:</label><input type="text" name="verify"/>Password does not match<br>
+    <label>Password:</label><input type="password" name="password"/><br>
+    <label>Verify Password:</label><input type="password" name="verify"/>Password does not match<br>
     <label>Email(optional):</label><input type="text" name="email"/><br>
     <input type="submit"/>
     </form>'''
@@ -66,8 +66,8 @@ content_email =''' <head>
     <h1>Signup</h1>
     <form action="/welcome" method="post">
     <label>Username:<label><input type="text" name="username"/><br>
-    <label>Password:</label><input type="text" name="password"/><br>
-    <label>Verify Password:</label><input type="text" name="verify"/><br>
+    <label>Password:</label><input type="password" name="password"/><br>
+    <label>Verify Password:</label><input type="password" name="verify"/><br>
     <label>Email(optional):</label><input type="text" name="email"/>Email not valid<br>
     <input type="submit"/>
     </form>'''
@@ -79,8 +79,8 @@ class MainHandler(webapp2.RequestHandler):
         <h1>Signup</h1>
         <form action="/welcome" method="post">
         <label>Username:<label><input type="text" name="username"/><br>
-        <label>Password:</label><input type="text" name="password"/><br>
-        <label>Verify Password:</label><input type="text" name="verify"/><br>
+        <label>Password:</label><input type="password" name="password"/><br>
+        <label>Verify Password:</label><input type="password" name="verify"/><br>
         <label>Email(optional):</label><input type="text" name="email"/><br>
         <input type="submit"/>
         </form>"""
